@@ -1,0 +1,11 @@
+# Retrospectiva del Equipo - Sprint 1
+
+## Ventajas de aplicar Scrum en Soporte Digital VER
+1. **Visibilidad y control del avance en tiempo real:** El tablero de Jira y el gráfico Burndown nos permitieron saber exactamente qué historias estaban terminadas y cuáles faltaban. *Ejemplo en el proyecto:* Pudimos monitorear diariamente el avance de los 32 puntos comprometidos (como `KAN-3` y `KAN-9`) hasta completarlos todos antes del cierre[cite: 44].
+2. **Orden y trazabilidad entre tareas y código:** Vincular las claves de Jira con las ramas y commits de GitHub evitó que nos perdiéramos entre archivos PHP. *Ejemplo en el proyecto:* Cada modificación en los módulos de tickets o clientes quedó registrada bajo su clave (ej. `KAN-4` para actualizar estados), facilitando encontrar qué cambió y quién lo hizo[cite: 29, 44].
+3. **Detección temprana de errores mediante revisión por pares:** Exigir que otro compañero aprobara cada Pull Request antes de fusionar a `main` mejoró la calidad del código. *Ejemplo en el proyecto:* Al revisar los cambios de los formularios de clientes y agenda, detectamos detalles de validación antes de integrarlos a la rama principal.
+
+## Desventajas o dificultades vividas con Scrum
+1. **Curva de aprendizaje inicial con las herramientas:** Configurar la conexión entre Jira y GitHub y acostumbrarnos a no subir cambios directos a `main` nos consumió tiempo valioso al inicio. *Ejemplo en el proyecto:* Tuvimos que invertir parte de los primeros días del sprint ajustando los permisos de la organización `equipo7-uv` y creando la estructura de épicas antes de empezar a programar[cite: 32, 42].
+2. **Cuellos de botella en las revisiones de Pull Requests:** Si los compañeros tardaban en revisar una rama, el flujo de integración se detenía temporalmente. *Ejemplo en el proyecto:* Algunas historias como la actualización de estados o el historial (`KAN-10`) tuvieron que esperar en fila para ser aprobadas y fusionadas.
+3. **Sobrecarga documental en un sprint corto:** Llevar al día las ceremonias, el tablero, los criterios de aceptación y los archivos de registro en solo 9 días resultó pesado. *Ejemplo en el proyecto:* Coordinar la redacción de las 15 historias, las pruebas y el registro `sprints/sprint-1.md` requirió mucho trabajo fuera de horario de clase.
